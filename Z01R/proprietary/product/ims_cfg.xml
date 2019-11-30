@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <carrier_config_list>
-    <version>dra10.01.1.00</version>
+    <version>dra10.01.1.35</version>
 
     <!-- for TW Gt4G_ViWiFi test -->
     <carrier_config mcc="466" mnc="05">
@@ -33,6 +33,7 @@
     <!-- for TW TWM_VoLTE test -->
     <carrier_config mcc="466" mnc="97">
         <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
 
     <!-- for TR_Vodafone_Turkey_VoLTE test -->
@@ -67,17 +68,17 @@
     </carrier_config>
 
     <!-- for JP_KDDI_VoLTE test -->
-    <carrier_config mcc="440" mnc="51" cid="ACJ">
+    <carrier_config mcc="440" mnc="51" customerid="ACJ">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
 
     <!-- for JP_Docomo_JP_Volte test -->
-    <carrier_config mcc="440" mnc="10" cid="ACJ">
+    <carrier_config mcc="440" mnc="10" customerid="ACJ">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
 
     <!-- for JP_Softbank_JP_Volte test -->
-    <carrier_config mcc="440" mnc="20" cid="ACJ">
+    <carrier_config mcc="440" mnc="20" customerid="ACJ">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
 
@@ -408,6 +409,12 @@
 
     <!-- for RU_MTS_VoLTE test -->
     <carrier_config mcc="250" mnc="01">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
+
+    <!-- for Telia_Finland_Volte_Vowif_24491 -->
+    <carrier_config mcc="244" mnc="91">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>

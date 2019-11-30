@@ -5,16 +5,19 @@
     <carrier_config mcc="466" mnc="05">
         <boolean name="hide_ims_apn_bool" value="true"/>
         <string name="vowifi_name_override">GT WiFi</string>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
     </carrier_config>
 
     <carrier_config mcc="525" mnc="05" gid1="0A">
         <boolean name="hide_ims_apn_bool" value="true"/>
         <string name="vowifi_name_override">GT WiFi</string>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
     </carrier_config>
 
     <!-- TW FET_VoWiFi -->
     <carrier_config mcc="466" mnc="01">
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
     </carrier_config>
 
     <!-- TW CHT_VoLTE -->
@@ -23,18 +26,22 @@
         <boolean name="carrier_roam_volte_enabled_bool" value="false"/>
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
     </carrier_config>
 
     <!-- TW TWM_VoLTE -->
     <carrier_config mcc="466" mnc="97">
         <boolean name="enhanced_4g_lte_on_by_default_bool" value="false" />
         <boolean name="carrier_roam_volte_enabled_bool" value="false"/>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
     </carrier_config>
 
     <!-- TW TStar_VoLTE -->
     <carrier_config mcc="466" mnc="89">
         <boolean name="carrier_volte_roaming_available_bool" value="false" />
         <boolean name="carrier_roam_volte_enabled_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
     </carrier_config>
 
     <!-- TH DTAC_VoLTE -->
@@ -88,6 +95,11 @@
             <item value="type"/>
             <item value="emergency"/>
         </string-array>
+    </carrier_config>
+
+    <!-- JP 44010 hide_ims_apn -->
+    <carrier_config mcc="440" mnc="10">
+        <boolean name="hide_ims_apn_bool" value="true" />
     </carrier_config>
 
     <!-- SG Singtel_VoLTE -->
@@ -456,90 +468,112 @@
     <!--IN_RJIO-->
     <carrier_config mcc="405" mnc="840">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="854">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="855">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="856">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="857">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="858">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="859">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="860">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="861">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="862">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="863">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="864">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="865">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="866">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="867">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="868">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="869">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="870">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="871">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="872">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="873">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
     <carrier_config mcc="405" mnc="874">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true"/>
         <int name="ims_conference_size_limit_int" value="5" />
     </carrier_config>
 
@@ -631,5 +665,28 @@
     <carrier_config mcc="405" mnc="750">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
         <int name="ims_conference_size_limit_int" value="5" />
+    </carrier_config>
+
+    <!-- CN_CMCC_CUCC_CTCC -->
+    <carrier_config mcc="460">
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    </carrier_config>
+
+    <!-- TW -->
+    <carrier_config mcc="466">
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    </carrier_config>
+
+    <!-- HK -->
+    <carrier_config mcc="454">
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    </carrier_config>
+
+    <!-- JP -->
+    <carrier_config mcc="440">
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    </carrier_config>
+    <carrier_config mcc="441">
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
     </carrier_config>
 </carrier_config_list>

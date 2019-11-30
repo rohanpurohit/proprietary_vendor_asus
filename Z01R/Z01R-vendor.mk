@@ -20,8 +20,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/asus/Z01R/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
-    vendor/asus/Z01R/proprietary/etc/media_profiles_V1_0.dtd:$(TARGET_COPY_OUT_SYSTEM)/etc/media_profiles_V1_0.dtd \
-    vendor/asus/Z01R/proprietary/etc/permissions/com.nxp.nfc.nq.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.nfc.nq.xml \
     vendor/asus/Z01R/proprietary/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.location.sdk.xml \
     vendor/asus/Z01R/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
     vendor/asus/Z01R/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
@@ -31,20 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/asus/Z01R/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
     vendor/asus/Z01R/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_0_1080p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_1080p_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_0_1080p_video_60fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_1080p_video_60fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_0_21601080p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_21601080p_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_0_480p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_480p_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_0_4k_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_4k_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_0_720p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_720p_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_1_1080p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_1_1080p_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_1_21601080p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_1_21601080p_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_1_480p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_1_480p_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_1_720p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_1_720p_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_2_1080p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_2_1080p_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_2_21601080p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_2_21601080p_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_2_480p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_2_480p_video_30fps.config \
-    vendor/asus/Z01R/proprietary/etc/vstab_db_2_720p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_2_720p_video_30fps.config \
     vendor/asus/Z01R/proprietary/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
     vendor/asus/Z01R/proprietary/framework/com.nxp.nfc.nq.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.nxp.nfc.nq.jar \
     vendor/asus/Z01R/proprietary/framework/dpm.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dpm.jar \
@@ -54,20 +38,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/framework/vendor.ims.glovemode-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.ims.glovemode-V1.0-java.jar \
     vendor/asus/Z01R/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/asus/Z01R/proprietary/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib/fm_helium.so \
-    vendor/asus/Z01R/proprietary/lib/libAsusRGBSensorHAL.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAsusRGBSensorHAL.so \
     vendor/asus/Z01R/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/asus/Z01R/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
-    vendor/asus/Z01R/proprietary/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_beautyshot.so \
-    vendor/asus/Z01R/proprietary/lib/libarcsoft_face_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_face_detection.so \
-    vendor/asus/Z01R/proprietary/lib/libarcsoft_face_tracking.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_face_tracking.so \
-    vendor/asus/Z01R/proprietary/lib/libarcsoft_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_hdr.so \
-    vendor/asus/Z01R/proprietary/lib/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_low_light_shot.so \
-    vendor/asus/Z01R/proprietary/lib/libarcsoft_nighthawk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_nighthawk.so \
-    vendor/asus/Z01R/proprietary/lib/libarcsoft_picselfie_algorithm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_picselfie_algorithm.so \
-    vendor/asus/Z01R/proprietary/lib/libarcsoft_piczoom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_piczoom.so \
     vendor/asus/Z01R/proprietary/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag_system.so \
     vendor/asus/Z01R/proprietary/lib/libdisplayconfig.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdisplayconfig.so \
-    vendor/asus/Z01R/proprietary/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdualcameraddm.so \
     vendor/asus/Z01R/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
     vendor/asus/Z01R/proprietary/lib/libfmq.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfmq.so \
     vendor/asus/Z01R/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
@@ -90,14 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
     vendor/asus/Z01R/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
     vendor/asus/Z01R/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
-    vendor/asus/Z01R/proprietary/lib/libxditk_DITAECInit.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libxditk_DITAECInit.so \
-    vendor/asus/Z01R/proprietary/lib/libxditk_DIT_MSMv1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libxditk_DIT_MSMv1.so \
-    vendor/asus/Z01R/proprietary/lib/libxditk_DIT_Manager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libxditk_DIT_Manager.so \
-    vendor/asus/Z01R/proprietary/lib/libxditk_ISP.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libxditk_ISP.so \
-    vendor/asus/Z01R/proprietary/lib/libxditk_arch.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libxditk_arch.so \
-    vendor/asus/Z01R/proprietary/lib/libxditk_ditArchLIB.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libxditk_ditArchLIB.so \
-    vendor/asus/Z01R/proprietary/lib/libxditk_ditBSP.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libxditk_ditBSP.so \
-    vendor/asus/Z01R/proprietary/lib/libxditk_ditBSP_JNI.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libxditk_ditBSP_JNI.so \
     vendor/asus/Z01R/proprietary/lib/vendor.qti.hardware.audiohalext-utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.audiohalext-utils.so \
     vendor/asus/Z01R/proprietary/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
     vendor/asus/Z01R/proprietary/lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
@@ -124,7 +90,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
-    libril-qc-hal-qmi \
     WfdService \
     com.qualcomm.location \
     WfdCommon \
@@ -140,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/asus/Z01R/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/asus/Z01R/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
-    vendor/asus/Z01R/proprietary/product/etc/permissions/com.android.carrierconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.carrierconfig.xml \
     vendor/asus/Z01R/proprietary/product/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/asus/Z01R/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/asus/Z01R/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
@@ -151,8 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/product/etc/permissions/ims_ext_common.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/ims_ext_common.xml \
     vendor/asus/Z01R/proprietary/product/etc/permissions/lpa.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/lpa.xml \
     vendor/asus/Z01R/proprietary/product/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qcrilhook.xml \
-    vendor/asus/Z01R/proprietary/product/etc/permissions/qti_telephony_hidl_wrapper.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qti_telephony_hidl_wrapper.xml \
-    vendor/asus/Z01R/proprietary/product/etc/permissions/qti_telephony_utils.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qti_telephony_utils.xml \
     vendor/asus/Z01R/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/asus/Z01R/proprietary/product/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephonyservice.xml \
     vendor/asus/Z01R/proprietary/product/etc/permissions/uimremoteclient.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/uimremoteclient.xml \
@@ -172,11 +134,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/product/framework/com.quicinc.cne.constants-V2.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.quicinc.cne.constants-V2.1-java.jar \
     vendor/asus/Z01R/proprietary/product/framework/dpmapi.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/dpmapi.jar \
     vendor/asus/Z01R/proprietary/product/framework/embmslibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/embmslibrary.jar \
-    vendor/asus/Z01R/proprietary/product/framework/ims-ext-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/ims-ext-common.jar \
     vendor/asus/Z01R/proprietary/product/framework/qcrilhook.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qcrilhook.jar \
     vendor/asus/Z01R/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
-    vendor/asus/Z01R/proprietary/product/framework/qti-telephony-hidl-wrapper.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-hidl-wrapper.jar \
-    vendor/asus/Z01R/proprietary/product/framework/qti-telephony-utils.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-utils.jar \
     vendor/asus/Z01R/proprietary/product/framework/remotesimlockmanagerlibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/remotesimlockmanagerlibrary.jar \
     vendor/asus/Z01R/proprietary/product/framework/uimgbalibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/uimgbalibrary.jar \
     vendor/asus/Z01R/proprietary/product/framework/uimgbamanagerlibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/uimgbamanagerlibrary.jar \
@@ -262,30 +221,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/product/lib/libxditk_ditArchLIB.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libxditk_ditArchLIB.so \
     vendor/asus/Z01R/proprietary/product/lib/libxditk_ditBSP.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libxditk_ditBSP.so \
     vendor/asus/Z01R/proprietary/product/lib/libxditk_ditBSP_JNI.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libxditk_ditBSP_JNI.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.1.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.2.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.3.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.1.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.2.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.3.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.4.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.5.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.6.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.7.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.8.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.9.so \
     vendor/asus/Z01R/proprietary/product/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.postproc@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.nxp.hardware.nfc@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.nxp.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.nxp.hardware.nfc@1.1.so \
     vendor/asus/Z01R/proprietary/product/lib/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.data.factory@1.0.so \
     vendor/asus/Z01R/proprietary/product/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.data.factory@2.0.so \
     vendor/asus/Z01R/proprietary/product/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/asus/Z01R/proprietary/product/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.audiohalext@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.bluetooth_audio@2.0.so \
     vendor/asus/Z01R/proprietary/product/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/asus/Z01R/proprietary/product/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so \
     vendor/asus/Z01R/proprietary/product/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so \
     vendor/asus/Z01R/proprietary/product/lib/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.cvp@1.0.so \
@@ -363,7 +304,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/product/lib64/libGPQTEEC_system.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libGPQTEEC_system.qti.so \
     vendor/asus/Z01R/proprietary/product/lib64/libGPTEE_system.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libGPTEE_system.qti.so \
     vendor/asus/Z01R/proprietary/product/lib64/libQTEEConnector_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libQTEEConnector_system.so \
-    vendor/asus/Z01R/proprietary/product/lib64/libcryptfs_hw.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libcryptfs_hw.so \
     vendor/asus/Z01R/proprietary/product/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmctmgr.so \
     vendor/asus/Z01R/proprietary/product/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmfdmgr.so \
     vendor/asus/Z01R/proprietary/product/lib64/libdpmframework.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmframework.so \
@@ -377,23 +317,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/product/lib64/libseccamservice.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libseccamservice.so \
     vendor/asus/Z01R/proprietary/product/lib64/libsecureui_svcsock_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsecureui_svcsock_system.so \
     vendor/asus/Z01R/proprietary/product/lib64/libsecureuisvc_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsecureuisvc_jni.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.1.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.2.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.3.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.1.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.2.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.3.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.4.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.5.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.6.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.7.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.8.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.9.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.postproc@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.nxp.hardware.nfc@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.nxp.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.nxp.hardware.nfc@1.1.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.data.factory@1.0.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@1.0.so \
@@ -404,9 +328,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@3.0.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.audiohalext@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
-    vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.camera.device@1.0.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.hardware.cryptfshw@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.cryptfshw@1.0.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so \
@@ -473,7 +395,6 @@ PRODUCT_PACKAGES += \
     QtiSettings \
     QtiSystemService \
     QtiTelephonyService \
-    atfwd \
     com.qualcomm.qti.services.secureui \
     datastatusnotification \
     embms \
