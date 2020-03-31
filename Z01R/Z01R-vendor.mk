@@ -142,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/product/lib/libmorpho_video_refiner.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libmorpho_video_refiner.so \
     vendor/asus/Z01R/proprietary/product/lib/libseccam-ipc.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libseccam-ipc.so \
     vendor/asus/Z01R/proprietary/product/lib/libseccam.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libseccam.so \
-    vendor/asus/Z01R/proprietary/product/lib/libseccamservice.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libseccamservice.so \
     vendor/asus/Z01R/proprietary/product/lib/libxditk_DITAECInit.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libxditk_DITAECInit.so \
     vendor/asus/Z01R/proprietary/product/lib/libxditk_DIT_MSMv1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libxditk_DIT_MSMv1.so \
     vendor/asus/Z01R/proprietary/product/lib/libxditk_DIT_Manager.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libxditk_DIT_Manager.so \
@@ -184,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
     vendor/asus/Z01R/proprietary/product/lib64/libseccam-ipc.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libseccam-ipc.so \
     vendor/asus/Z01R/proprietary/product/lib64/libseccam.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libseccam.so \
-    vendor/asus/Z01R/proprietary/product/lib64/libseccamservice.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libseccamservice.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.postproc@1.0.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@1.0.so \
     vendor/asus/Z01R/proprietary/product/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@1.1.so \
@@ -219,5 +217,4 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    seccamservice \
     WfdCommon
